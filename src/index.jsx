@@ -6,7 +6,7 @@ import './index.css';
 
 // Import wagmi dependencies for wallet connection
 import { WagmiConfig, createConfig, mainnet } from 'wagmi';
-import { publicProvider } from 'wagmi/providers/public';
+import { publicProvider } from '@wagmi/providers/public';
 import { MetaMaskConnector } from 'wagmi/connectors/metaMask';
 import { WalletConnectConnector } from 'wagmi/connectors/walletConnect';
 
